@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "autogen-ollama-playground"
+version = "0.1.0"
+description = "A playground to learn more on using Autogen with custom LLMs using Ollama"
+authors = ["Martin Gauthier <gauthiermartin86@gmail.com>"]
+readme = "README.md"
+packages = [{include = "autogen_ollama_playground"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+pyautogen = "^0.2.0"
+litellm = "^1.7.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
